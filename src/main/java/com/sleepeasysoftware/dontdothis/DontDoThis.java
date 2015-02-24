@@ -9,15 +9,11 @@ import java.util.List;
 public class DontDoThis {
 
     public static void main(String[] args) {
-        List<String> populated = new ArrayList<String>() {{
-            add("a");
-            add("b");
-            add("c");
-        }};
+        List<String> wat = new ArrayList<String>() {{ add("a"); add("b"); add("c"); }};
 
-        System.out.println(populated.contains("a"));
-        System.out.println(populated.contains("b"));
-        System.out.println(populated.contains("c"));
+        System.out.println(wat.contains("a"));
+        System.out.println(wat.contains("b"));
+        System.out.println(wat.contains("c"));
     }
 
 }
