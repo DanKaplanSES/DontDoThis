@@ -8,7 +8,7 @@ public class AnonymousInnerClassInstanceInitializer {
     public static void main(String[] args) {
         new InnerClass() {
             {
-                System.out.printf("I am constructing an Anonymous Inner Class Now!");
+                System.out.println("I am constructing an Anonymous Inner Class Now!");
             }
         };
     }
