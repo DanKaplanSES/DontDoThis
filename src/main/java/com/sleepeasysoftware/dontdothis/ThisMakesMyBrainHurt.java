@@ -6,8 +6,8 @@ package com.sleepeasysoftware.dontdothis;
 public class ThisMakesMyBrainHurt {
 
     public static void main(String[] args) {
-        new Child();    //go to Parent()
-        new Child("bye");  //go to Parent(String)
+        new Child();    //this constructor calls Parent()
+        new Child("bye");  //this constructor calls Parent(String)
     }
 
     static class Parent {
